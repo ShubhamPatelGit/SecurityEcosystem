@@ -3,6 +3,15 @@
 In this project, we are giving a secure ecosystem to client for uploading and retriving data from the cloud.
 Our project uses benefits of both symmetric and asymmetric encryption. We make use of RSA (Asymmetric) and AES (Symmetric) algorithms for carrying out data encryption.
 We aim at creating a comprehensive Cloud Environment that has security measures at all levels from creating and storing username and password, multifactor authentication, transmission of user data and data encryption.
+The technologies used are:
+1. Java
+2. Servlet
+3. JSP
+4. Html
+5. css
+6. Javascript
+7. Bootstrap
+
 
 Reqirements:
 1. JDK 8 or above.
