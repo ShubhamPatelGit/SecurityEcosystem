@@ -62,7 +62,7 @@
 			<div class="login-wrap">
 				<input type="hidden" name='request_type' value='login2' /> 
 				<input type="hidden" name='email' value='<%=request.getParameter("email") %>' /> <label>Verification Code:</label>
-				<input type="text" name="code" class='form-control' value='${code }'/>
+				<input type="text" name="code" class='form-control'/>
 				<div class="cleaner_h10"></div>
 				<div class="cleaner_h10"></div>
 				<br />

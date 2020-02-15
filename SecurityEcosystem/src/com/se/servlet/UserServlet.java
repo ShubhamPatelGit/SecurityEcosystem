@@ -74,9 +74,7 @@ public class UserServlet extends HttpServlet {
 					to.add(email);
 					String sub = "Login Verification code";
 					String code= Util.generateverificationcode();
-					
-					req.getSession().setAttribute("code", code);
-					
+
 					String body = "Dear "+email+", <br/>Your login verification code is : <b>"+code+"</b>";
 					UserLoginDAO udao = new UserLoginDAO();
 					udao.writecode(email, code);
